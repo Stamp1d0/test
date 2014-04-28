@@ -21,3 +21,10 @@ alert.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
 });
 
 alert.show();
+alert.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+  public void onClick(DialogInterface dialog, int whichButton) {
+    // Canceled.
+  }
+});
+
+alert.show();
